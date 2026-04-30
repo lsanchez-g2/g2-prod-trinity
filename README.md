@@ -3,6 +3,10 @@
 > **Transform Claude into your senior product team** — Designer, Developer, and Product Manager working together on every decision.
 
 <p align="center">
+  <img src="product-trio-hero.jpg" alt="Product Trio - Three perspectives, one decision" width="100%">
+</p>
+
+<p align="center">
   <a href="https://github.com/lsanchez-g2/g2-prod-trinity/releases"><img src="https://img.shields.io/github/v/release/lsanchez-g2/g2-prod-trinity?style=flat-square" alt="Latest Release"></a>
   <a href="#installation"><img src="https://img.shields.io/badge/claude-skill-purple?style=flat-square" alt="Claude Skill"></a>
   <a href="#license"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License"></a>
