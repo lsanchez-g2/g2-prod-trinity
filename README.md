@@ -42,7 +42,7 @@ Every response follows a structured four-lens format:
 
 ### From GitHub Release
 
-1. Download the latest `product-trio.skill` file from the [releases page](../../releases)
+1. Download the latest `product-trio.skill` file from the [releases page](https://github.com/lsanchez-g2/g2-prod-trinity/releases)
 2. Install using Claude Code:
    ```bash
    claude skill install product-trio.skill
@@ -53,8 +53,8 @@ Every response follows a structured four-lens format:
 Clone this repository and package the skill:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/lsanchez-g2/g2-prod-trinity.git
+cd g2-prod-trinity
 cd trinity
 # Package manually if needed
 zip -r ../product-trio.skill . -x "*.DS_Store" "*__pycache__*" "*.pyc"
