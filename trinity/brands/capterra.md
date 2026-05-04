@@ -8,7 +8,7 @@ Capterra is a software discovery and review platform serving primarily SMB softw
 
 - **Audience**: SMB mass market, broad; many first-time researchers; high mix of non-technical buyers
 - **Region skew**: US-leaning, with strong global reach
-- **Lead model**: PPC (pay per click) on category pages and product listings
+- **Revenue model**: PPC (pay per click) on blue "Visit Website" buttons for premium (paid) vendor profiles; standard (free) profiles generate no revenue
 - **Award system**: Capterra Shortlist (annual, by category)
 - **Scale**: ~5.1M visits/month; ~900-2000 categories; the largest of the three G2 Digital Markets brands by traffic
 
@@ -30,24 +30,76 @@ Capterra buyers tend to be:
 
 ## What vendors come for
 
-Vendors invest in Capterra to capture buyer demand at the moment of category research. The mechanics:
+Vendors invest in Capterra to capture buyer demand at the moment of category research. The two-tier model:
 
-- **Paid placement**: PPC bids determine ranking on category pages above the organic listings; bids range widely by category competitiveness ($5 in low-comp categories, $20+ in saturated ones)
+### Premium (paid) profiles
+Vendors pay for PPC placement and the blue "Visit Website" button that drives traffic to their site. This is the revenue-generating path.
+
+- **Paid placement**: PPC bids determine ranking on directory/category pages above the organic listings; bids range widely by category competitiveness ($5 in low-comp categories, $20+ in saturated ones)
+- **Blue "Visit Website" button**: The monetization click - vendors pay per click to their external site
+- **Priority visibility**: Premium profiles appear above standard profiles in directories and search results
+- **Lead delivery**: Direct traffic to vendor site (PPC model), contact form submissions, demo requests
+
+### Standard (free) profiles
+Organic listings that appear below premium profiles. No PPC cost, but also no revenue for Capterra.
+
+- **Organic ranking**: Driven by review volume, recency, and relevance signals
+- **"Visit Profile" button**: Links to the Capterra-hosted profile page; no revenue generated
+- **Discovery presence**: Maintains vendor presence for review collection and brand awareness
+
+### Universal vendor value (both tiers)
 - **Profile optimization**: product description, screenshots, video, feature mapping, category selection - the right categories matter more than aspirational ones
 - **Review collection**: review volume and recency drive both organic ranking and Shortlist eligibility
 - **Shortlist awards**: annual, category-specific, used heavily in vendor marketing
-- **Lead delivery**: PPC traffic to vendor site, contact form submissions, demo requests
+
+## Core revenue mechanic
+
+**Capterra's core revenue comes from PPC on the blue "Visit Website" buttons** that appear on premium (paid) profile listings. This is the load-bearing conversion action. Every product decision must consider its impact on this button's visibility, trustworthiness, and click-through rate.
+
+### Premium vs Standard profiles
+
+- **Premium (paid) profiles** - Vendors pay for PPC placement; blue "Visit Website" button generates revenue per click; these profiles get priority placement in directories and category pages
+  - Example: https://www.capterra.com/p/19319/JIRA/
+  
+- **Standard (free) profiles** - Organic listings; "Visit Profile" button generates NO revenue; serves discovery and review integrity but is not the monetization path
+  - Example: https://www.capterra.com/p/211559/Trello/
+
+**Critical implication**: Any buyer-side feature that reduces clicks to premium profiles (e.g., keeping users on Capterra surfaces longer) must prove it increases downstream conversion quality or total buyer lifetime value. The PPC click is not just a metric—it's the business model.
 
 ## Surfaces and primary screens
 
 ### Buyer-facing
-- Homepage and search
-- Category pages (the load-bearing surface for traffic and monetization)
-- Product profile pages (reviews, features, pricing, screenshots, video)
-- Comparison pages (side-by-side feature and rating comparison)
-- Reviews collection and reading
-- Buyer guides and editorial content (SEO-driving)
-- AI-driven recommendation surfaces (post-G2 acquisition direction)
+
+**Directory (Category) pages** - The traffic and monetization workhorse
+- Example: https://www.capterra.com/project-management-software/
+- Ranked mix of premium (paid placement above) and standard (organic below)
+- Filters, comparison selectors, Shortlist badges
+- Primary entry point from organic search
+- Load-bearing for SEO and PPC revenue
+
+**Product profile pages** 
+- **Premium**: https://www.capterra.com/p/19319/JIRA/ - blue "Visit Website" button (revenue-generating PPC click)
+- **Standard**: https://www.capterra.com/p/211559/Trello/ - "Visit Profile" button (no revenue)
+- Reviews, features, pricing, screenshots, video
+- Comparison links, category breadcrumbs
+
+**Comparison pages** - Side-by-side product evaluation
+- Example: https://www.capterra.com/compare/tool/#products=5923-147657-169455-268205
+- Feature and rating comparison, review snippets
+- Links to individual profiles or direct "Visit Website" CTAs
+
+**SEM pages** - Paid search landing pages
+- Example: https://www.capterra.com/SEM/project-management-software/
+- Search results optimized for paid traffic conversion
+- Streamlined for speed and PPC click-through
+
+**Content and authority**
+- About: https://www.capterra.com/our-story/
+- Blog/Resources: https://www.capterra.com/resources/
+- Proprietary research: https://www.capterra.com/resources/proprietary-data-research/
+- Buyer guides and editorial content (SEO-driving, E-E-A-T signals)
+
+**AI-driven recommendation surfaces** (post-G2 acquisition direction)
 
 ### Vendor-facing
 - Vendor dashboard (currently shared infrastructure with Software Advice and GetApp from the Gartner era)
@@ -100,8 +152,10 @@ The recurring tension on AI: buyer value vs vendor fairness vs review integrity.
 
 A Capterra-savvy trio will push back when:
 
+- **A buyer surface change reduces clicks to premium profile "Visit Website" buttons without proving it increases lead quality or downstream conversion** - this is the revenue engine; you cannot just optimize for engagement
 - A buyer surface change ignores the SEO surface or category page primacy
 - An AI feature is proposed without addressing how it handles products with fewer than ~30 reviews
+- **A feature inadvertently advantages standard (free) profiles over premium (paid) profiles** - this breaks the commercial model and vendor trust in the PPC auction
 - A vendor-facing change has no rollout communication and no impact analysis on PPC mechanics
 - The metric being optimized is single-side (e.g., buyer click-through) without the counterweight (vendor lead quality, vendor satisfaction, review submission rate)
 - The proposal treats Capterra buyers like enterprise buyers (they are not; they are SMB and time-pressed)

@@ -8,9 +8,23 @@ Software Advice is a software discovery platform built around a distinct model: 
 
 - **Audience**: SMB buyers seeking guided help, more comfortable picking up the phone or filling a form than self-serving through review pages
 - **Region skew**: US-centric
-- **Lead model**: pay-per-lead (PPL); fundamentally different from the PPC model used by Capterra and GetApp
+- **Revenue model**: pay-per-lead (PPL) through advisor contact forms; fundamentally different from the PPC model used by Capterra and GetApp
 - **Award system**: FrontRunners (annual, by category)
 - **Scale**: ~2.5M visits/month
+
+## Core revenue mechanic
+
+**Software Advice's core revenue comes from pay-per-lead (PPL) when buyers contact advisors through forms**. This is fundamentally different from Capterra's PPC model—Software Advice monetizes through qualified lead generation, not clicks to vendor websites.
+
+The revenue-generating action is the **advisor contact form submission**. When a buyer fills out a form requesting help (providing details about their needs, budget, team size), that qualified lead is sold to 3-5 competing vendors who pay $70-$250+ per lead depending on category and qualification depth.
+
+**Critical implication**: The conversion funnel is longer and higher-intent than a PPC click. Every product decision must consider its impact on:
+1. **Form fill rate** - getting buyers to submit the advisor request
+2. **Lead quality** - depth of buyer information and purchase intent
+3. **Advisor trust** - buyers must believe advisors are neutral, not sales reps
+4. **Vendor confidence** - vendors must see leads as worth the $70-$250 cost
+
+Any buyer-side feature that reduces form fills OR reduces lead quality breaks the business model.
 
 ## What buyers come for
 
@@ -41,12 +55,34 @@ Vendors do not bid on Software Advice the way they do on Capterra. The model is:
 ## Surfaces and primary screens
 
 ### Buyer-facing
-- Homepage and search
-- Category pages with editorial framing (more buyer-guide style than pure list)
-- Buyer guides and educational content (load-bearing for SEO)
-- Advisor request forms and call-back surfaces
-- Product reviews (synced with Capterra and GetApp from Gartner-era infrastructure, but presented in Software Advice's own voice)
-- Editorial expert content
+
+**Category pages** - Editorial framing with advisor contact forms
+- Example: https://www.softwareadvice.com/hr/
+- More buyer-guide style than pure product list
+- Prominent advisor contact forms (the revenue-generating conversion point)
+- Featured products, FrontRunners badges, editorial context
+- Primary entry point from organic search
+
+**Product profile pages**
+- Example: https://www.softwareadvice.com/hr/adp-workforce-now-profile/
+- Reviews, features, pricing, screenshots
+- Advisor contact forms appear alongside product info
+- Reviews synced with Capterra and GetApp (Gartner-era infrastructure) but presented in Software Advice's editorial voice
+
+**Buyer guides and educational content** - Load-bearing for SEO
+- Expert articles, category guides, comparison articles
+- Editorial authority and E-E-A-T signals
+- Drive organic traffic and establish trust before form fill
+
+**Advisor request forms and call-back surfaces** - The conversion mechanism
+- Capture buyer needs, budget, team size, timeline, contact info
+- Higher-intent than a click (buyers provide detailed qualification data)
+- Must balance friction (qualification depth) vs. conversion rate
+
+**About and authority pages**
+- Example: https://www.softwareadvice.com/about-us/
+- Establishes advisor credibility and neutrality
+- Trust signals for the advisor-mediated model
 
 ### Vendor-facing
 - Vendor dashboard (shared infrastructure with Capterra and GetApp from Gartner era)
@@ -95,13 +131,16 @@ Vendors do not bid on Software Advice the way they do on Capterra. The model is:
 
 A Software Advice-savvy trio will push back when:
 
+- **A buyer surface change reduces advisor contact form fills without proving it increases lead quality or downstream conversion** - the form fill is the revenue event; you cannot optimize for engagement at its expense
+- **A feature provides so much self-serve information that buyers no longer need advisor contact** - this breaks the business model; value-add must drive form fills, not replace them
 - A change to advisor-presented recommendations is proposed without addressing how it preserves perceived neutrality
 - An AI buyer-guidance feature is proposed without naming the relationship to the human advisor (replacement, supplement, gate)
-- A lead-quality change is proposed without modeling the vendor-side reaction (dispute volume, churn risk, sales adoption)
+- **A lead-quality change is proposed without modeling the vendor-side reaction** - vendors paying $70-$250/lead will dispute and churn if quality drops
 - The metric being optimized is lead volume without lead quality counterweight
 - A buyer-side change ignores that Software Advice buyers are often not self-serve and need editorial framing
-- Editorial content is being treated as marginal when it is in fact the SEO and authority spine
-- A pay-per-lead change is proposed without modeling the impact on vendor unit economics
+- Editorial content is being treated as marginal when it is in fact the SEO and authority spine that drives form-fill trust
+- A pay-per-lead pricing change is proposed without modeling the impact on vendor unit economics
+- **Form friction is reduced to the point where lead qualification suffers** - more forms at lower quality can be worse than fewer high-quality leads
 - The proposal references G2 group consolidation as if it were live; Software Advice remains an independent product
 
 ## Default assumptions when context is thin
